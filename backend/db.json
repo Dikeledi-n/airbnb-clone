@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name":"Dikeledi Ntjobokwane",
+      "email":"dikeledintjobokwane@gmail.com",
+      "phone":"1-770-736-8031"
+    },
+    {
+      "id": "2",
+      "name":"Nkululeko Mzibuko",
+      "email":"nkulelekoM@gmail.com",
+      "phone":"1-880-763-9041"
+    },
+    {
+      "id": "3",
+      "name":"Lesedi Ntumba",
+      "email":"lesediM@gmail.com",
+      "phone":"1-770-637-1409"
+    },
+    {
+      "id": "4",
+      "name":"Zizipho Madikane",
+      "email":"ziziphoM@gmail.com",
+      "phone":"1-880-768-9014"
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": "1",
+      "startDate": "2024-07-20",
+      "endDate": "2924-07-21",
+      "userId": "1"
+    }
+  ],
+  "listings": [
+    {
+    "id": "2",
+    "bath_num":"3",
+    "bed_num":"4",
+    "zip":"23456",
+    "address":"Barbuda Street",
+    "city":"Melville",
+    "street":"Vincent",
+    "price":"2000",
+    "sq_ft":"4.2",
+    "email":"test@test.com",
+    "userId":"2"
+   },
+   {
+    "id": "3",
+    "bath_num":"2",
+    "bed_num":"2",
+    "zip":"123456",
+    "address":"Tennessee Avenue",
+    "city":"Auckland Park",
+    "street":"Navis",
+    "price":"2500",
+    "sq_ft":"4.2",
+    "email":"lerato@gmail.com.com",
+    "userId":"3"
+   }
+ ]
+}

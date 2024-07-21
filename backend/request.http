@@ -1,0 +1,48 @@
+# GET ALL USERS
+GET http://localhost:5000/users
+####
+
+# GET A SINGLE USER
+GET http://localhost:5000/users/2
+####
+
+# REGISTER A USER
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+   "email": "Dikeledi@1234.com",
+   "password": "12345678"
+}
+####
+
+# SIGN IN
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+   "email": "ledi@gmail.com",
+   "password": "12345678"
+}
+####
+
+# GET ALL BOOKINGS
+GET http://localhost:5000/bookings/
+####
+
+# GET ALL BOOKINGS FOR A USER
+GET http://localhost:5000/user/1/bookings
+####
+
+# GET ALL LISTINGS
+GET http://localhost:5000/listings
+####
+
+# CREATE A POST
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+   "title": "airbnb clone",
+   "author": "Dikeledi"
+}
